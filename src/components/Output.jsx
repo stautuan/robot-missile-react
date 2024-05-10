@@ -19,9 +19,9 @@ function Output({ guess, attempts }) {
       </p>
     );
   } else if (guess > secretCode) {
-    message = <p>Earlier</p>;
+    message = <p>EARLIER</p>;
   } else if (guess < secretCode) {
-    message = <p>Later</p>;
+    message = <p>LATER</p>;
   } else {
     message = (
       <p>
